@@ -2,7 +2,8 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-<img width="1095" height="896" alt="remark_screenshot" src="https://github.com/user-attachments/assets/f9239975-c20b-4cd2-a783-a2f13e785862" />
+<img width="1186" height="971" alt="PixPin_2026-05-14_16-43-39" src="https://github.com/user-attachments/assets/cde85e37-b8ba-4635-9b97-3df6c0c353b7" />
+
 
 一个**带图形界面**的 Windows 小工具，用于给文件夹添加**自定义注释**（鼠标悬停时显示的文字说明），并支持**自定义图标/图片**，还内置了**备注搜索与保存**功能。
 
@@ -32,7 +33,14 @@
 4. （可选）点击“选择图片”为文件夹设置自定义图标。
 5. 点击“添加备注”完成修改，软件提示稍后可以看到备注。
 6. 搜索备注下，指定搜索文件夹路径，可以开启预扫描（自动扫描）或 输入“搜索关键词”后，点击搜索。搜索到的文字和图片在预览器显示。
-7. 
+
+### 🚀 新版说明
+1. v1.2版本修正了文件夹备注写入编码已由 UTF-8 改为 UTF-16 LE（符合 Windows 要求），彻底解决了中文备注在资源管理器中显示为乱码的问题。
+2. 支持文件夹与文件的备注
+   文件夹备注采用 Windows 原生 desktop.ini 机制，备注内容直接显示在资源管理器的“备注”列中；文件备注则通过内置 SQLite 数据库保存，不影响文件本身，支持 Word、TXT 等任意格式文件。
+3. 全面的备注管理功能
+   在搜索界面以表格形式展示所有备注记录，支持对文件夹或文件备注进行 删除 和 修改 操作，无需手动编辑配置文件或数据库。
+   
 ### 方式二：源码版（开发者/DIY）
 
 ```bash
@@ -40,4 +48,5 @@
 # 2. 克隆本仓库或下载 remark.py
 # 3. 运行python remark.py
 
+---
 
