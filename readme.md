@@ -1,8 +1,8 @@
-# 📁 Windows 文件夹注释工具
+# 📁 Windows 文件/文件夹备注和别名管理工具
 
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-<img width="1186" height="971" alt="PixPin_2026-05-14_16-43-39" src="https://github.com/user-attachments/assets/cde85e37-b8ba-4635-9b97-3df6c0c353b7" />
+<img width="1087" height="659" alt="PixPin_2026-05-18_14-41-05" src="https://github.com/user-attachments/assets/73d9a774-69ee-4102-8183-06f861ca5e42" />
 
 
 一个**带图形界面**的 Windows 小工具，用于给文件夹添加**自定义注释**（鼠标悬停时显示的文字说明），并支持**自定义图标/图片**，还内置了**备注搜索与保存**功能。
@@ -17,6 +17,7 @@
 - 🖼️ **支持图片图标**：可以为文件夹设置自定义图片（`.jpg``.png`、`.bmp` 等）。
 - 🔍 **备注搜索**：在已有备注的文件夹中快速搜索定位。
 - 💾 **搜索记录保存**：自动保存搜索历史，方便重复使用。
+- 🖥️ **别名**：实现系统上的别名修改。
 - 📦 **双版本提供**：
   - **EXE 版**（推荐）：由 PyInstaller 打包，无需 Python 环境，双击 `remark.exe` 即可使用。
   - **源码版**：需要 Python 3.x 环境，运行 `remark.py`。
